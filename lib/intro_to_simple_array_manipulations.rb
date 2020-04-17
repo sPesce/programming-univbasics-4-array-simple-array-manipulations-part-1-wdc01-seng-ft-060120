@@ -7,8 +7,9 @@ end
 def using_pop(array)
   array.pop 
 end
-def pop_with_args
-  
+def pop_with_args(array, count)
+  result = new.Array()
+  result.each{|i| result << array.pop}
 end
 def using_shift
   
