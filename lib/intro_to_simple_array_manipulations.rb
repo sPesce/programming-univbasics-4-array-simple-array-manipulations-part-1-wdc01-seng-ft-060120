@@ -1,11 +1,11 @@
-def using_push(my_array, my_string)
-  my_array.push(my_string)
+def using_push(array, string)
+  array.push(string)
 end
-def using_unshift(my_array, my_string)
-
+def using_unshift(array, string)
+  array.unshift(string)
 end
-def using_pop
-  
+def using_pop(array)
+  array.pop 
 end
 def pop_with_args
   
